@@ -1,7 +1,12 @@
 # CaseClassChecker
 Macro implementation to check if something is case class at compile time
 
-To use this, simply do
+Currently, no maven central dependency available, so I suggest to clone this repo and run
+```
+     sbt publish-local
+```
+
+Then, To use this library, simply do
 
 ```
     import com.net.samupra.macros.caseclasschecker.CaseClassChecker._
